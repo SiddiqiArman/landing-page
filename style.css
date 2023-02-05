@@ -1,0 +1,156 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+#sec1{
+    background-color: #1f2937;
+    color: whitesmoke;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    /* padding-bottom: 4em; */
+    height: 70vh;
+    
+}
+
+#sec1  .navbar{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    font-size: 01.4em;
+    margin-bottom: 2em;
+}
+.navbar .logo{
+    font-size: 24px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .5em;
+    
+}
+.content{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content .image-holder{
+    display: block;
+    width: 40vw;
+    height: 40vh;
+    background-color: aquamarine;
+}
+.content .con1{
+    display: block;
+    width: 40vw;
+    height: 40vh;
+}
+.content h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.content .Sign-up{
+    color: white;
+    background-color: rgb(18, 158, 186);
+    border-radius: .8em;
+    font-size: 1em;
+    padding: .3em .6em;
+    font-weight: bold;
+    border: none;
+    margin-top: .6em;
+}
+/* styling of second section starts here  */
+#sec2{
+    display:block;
+    margin: auto;
+    height: 25em;
+    width: 70vw;
+    text-align: center;
+    padding-top: 2em;
+
+}
+.cards{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 18em;
+}
+.card{
+    display: block;
+    width: 21%;
+    height: 85%;
+    /* border: 1px solid blue; */
+}
+.box{
+    display: block;
+    width: 100%;
+    height: 75%;
+    background-color: aquamarine;
+
+    /* border: 2px solid yellow; */
+    border-radius: 0.8em;
+}
+.card p{
+    margin-top: 0.5em;
+}
+#sec3{
+    background-color: #E5E7EB;
+}
+#sec3 p{
+    font-size: 36px;
+    font-style: italic;
+    
+}
+#sec3{
+    padding: 8em;
+}
+#sec3 h2{
+    margin-left: 90%;
+}
+/* styling the call to action segment */
+#sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18em;
+    width: 100%;
+   
+}
+.action{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 82%;
+    height: 60%;
+    border-radius: 1.5em;
+    background-color: #3882f6;
+    color: white;
+    font-size: 1.2em;
+}
+.action-btn{
+    color: white;
+    background: none;
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+.note{
+    display:flex;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    font-size: 22px;
+}
